@@ -40,6 +40,6 @@ public class HelloworldApplicationTests {
     mockMvc
         .perform(get("/"))
         .andExpect(status().isOk())
-        .andExpect(content().string("Hello World! Test:4"));
+        .andExpect(content().string("Hello World! Test:5"));
   }
 }
